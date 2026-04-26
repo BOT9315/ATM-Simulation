@@ -1,5 +1,6 @@
 def statement():
     import utils as np 
+
     
     total_deposit = sum(np.deposits)
     total_withdraw = sum(np.withdrawals)
