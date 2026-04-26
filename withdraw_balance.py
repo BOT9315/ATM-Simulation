@@ -1,6 +1,5 @@
 def withdraw_balance():
     import utils as np
-    
     try:
         amount = float(input("Enter amount to withdraw from your account: "))
         if amount > 0:
