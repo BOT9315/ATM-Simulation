@@ -4,7 +4,6 @@ def statement():
     total_deposit = sum(np.deposits)
     total_withdraw = sum(np.withdrawals)
     current_balance = total_deposit - total_withdraw
-
     
     print(f"\n--- Account Statement/History ---")
     print(f"Total Deposited in your account:  {total_deposit}")
